@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #8B0000, #DC143C);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 100vw;
+}
+
+.pedido p {
+  margin: 20px;
+}
+
+.pedido p{
+   font-size: 50px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #f0f8ff;
+}
+
+.pedido button {
+    margin: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.pedido button:hover {
+    background-color: #d7d9db;
+    transition: .2s ease;
+}
+
+button {
+    width: 60px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+}
